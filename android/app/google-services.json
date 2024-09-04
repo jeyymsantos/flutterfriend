@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "716224900630",
+    "project_id": "flutter-friend-zfkkka",
+    "storage_bucket": "flutter-friend-zfkkka.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716224900630:android:0dbc4da062b98d250a0f37",
+        "android_client_info": {
+          "package_name": "com.mycompany.flutterfriend"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7UeeQH38LuQqV_moQ3v1G_uQBAfsah7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
