@@ -47,17 +47,17 @@ class _AddLocationWidgetState extends State<AddLocationWidget> {
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
-      height: 509.0,
+      height: 509,
       decoration: BoxDecoration(
         color: FlutterFlowTheme.of(context).secondaryBackground,
       ),
       child: Padding(
-        padding: const EdgeInsetsDirectional.fromSTEB(20.0, 20.0, 20.0, 0.0),
+        padding: const EdgeInsetsDirectional.fromSTEB(20, 20, 20, 0),
         child: Column(
           mainAxisSize: MainAxisSize.max,
           children: [
             Padding(
-              padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 10.0),
+              padding: const EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
               child: TextFormField(
                 controller: _model.textController1,
                 focusNode: _model.textFieldFocusNode1,
@@ -68,30 +68,30 @@ class _AddLocationWidgetState extends State<AddLocationWidget> {
                   enabledBorder: OutlineInputBorder(
                     borderSide: const BorderSide(
                       color: Color(0x00000000),
-                      width: 2.0,
+                      width: 2,
                     ),
-                    borderRadius: BorderRadius.circular(14.0),
+                    borderRadius: BorderRadius.circular(14),
                   ),
                   focusedBorder: OutlineInputBorder(
                     borderSide: BorderSide(
                       color: FlutterFlowTheme.of(context).primary,
-                      width: 2.0,
+                      width: 2,
                     ),
-                    borderRadius: BorderRadius.circular(14.0),
+                    borderRadius: BorderRadius.circular(14),
                   ),
                   errorBorder: OutlineInputBorder(
                     borderSide: BorderSide(
                       color: FlutterFlowTheme.of(context).error,
-                      width: 2.0,
+                      width: 2,
                     ),
-                    borderRadius: BorderRadius.circular(14.0),
+                    borderRadius: BorderRadius.circular(14),
                   ),
                   focusedErrorBorder: OutlineInputBorder(
                     borderSide: BorderSide(
                       color: FlutterFlowTheme.of(context).error,
-                      width: 2.0,
+                      width: 2,
                     ),
-                    borderRadius: BorderRadius.circular(14.0),
+                    borderRadius: BorderRadius.circular(14),
                   ),
                   filled: true,
                   fillColor: const Color(0xFFEEEEEE),
@@ -104,7 +104,7 @@ class _AddLocationWidgetState extends State<AddLocationWidget> {
               ),
             ),
             Padding(
-              padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 10.0),
+              padding: const EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
               child: TextFormField(
                 controller: _model.textController2,
                 focusNode: _model.textFieldFocusNode2,
@@ -115,30 +115,30 @@ class _AddLocationWidgetState extends State<AddLocationWidget> {
                   enabledBorder: OutlineInputBorder(
                     borderSide: const BorderSide(
                       color: Color(0x00000000),
-                      width: 2.0,
+                      width: 2,
                     ),
-                    borderRadius: BorderRadius.circular(14.0),
+                    borderRadius: BorderRadius.circular(14),
                   ),
                   focusedBorder: OutlineInputBorder(
                     borderSide: BorderSide(
                       color: FlutterFlowTheme.of(context).primary,
-                      width: 2.0,
+                      width: 2,
                     ),
-                    borderRadius: BorderRadius.circular(14.0),
+                    borderRadius: BorderRadius.circular(14),
                   ),
                   errorBorder: OutlineInputBorder(
                     borderSide: BorderSide(
                       color: FlutterFlowTheme.of(context).error,
-                      width: 2.0,
+                      width: 2,
                     ),
-                    borderRadius: BorderRadius.circular(14.0),
+                    borderRadius: BorderRadius.circular(14),
                   ),
                   focusedErrorBorder: OutlineInputBorder(
                     borderSide: BorderSide(
                       color: FlutterFlowTheme.of(context).error,
-                      width: 2.0,
+                      width: 2,
                     ),
-                    borderRadius: BorderRadius.circular(14.0),
+                    borderRadius: BorderRadius.circular(14),
                   ),
                   filled: true,
                   fillColor: const Color(0xFFEEEEEE),
@@ -151,7 +151,7 @@ class _AddLocationWidgetState extends State<AddLocationWidget> {
               ),
             ),
             Padding(
-              padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 10.0),
+              padding: const EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
               child: TextFormField(
                 controller: _model.textController3,
                 focusNode: _model.textFieldFocusNode3,
@@ -162,30 +162,30 @@ class _AddLocationWidgetState extends State<AddLocationWidget> {
                   enabledBorder: OutlineInputBorder(
                     borderSide: const BorderSide(
                       color: Color(0x00000000),
-                      width: 2.0,
+                      width: 2,
                     ),
-                    borderRadius: BorderRadius.circular(14.0),
+                    borderRadius: BorderRadius.circular(14),
                   ),
                   focusedBorder: OutlineInputBorder(
                     borderSide: BorderSide(
                       color: FlutterFlowTheme.of(context).primary,
-                      width: 2.0,
+                      width: 2,
                     ),
-                    borderRadius: BorderRadius.circular(14.0),
+                    borderRadius: BorderRadius.circular(14),
                   ),
                   errorBorder: OutlineInputBorder(
                     borderSide: BorderSide(
                       color: FlutterFlowTheme.of(context).error,
-                      width: 2.0,
+                      width: 2,
                     ),
-                    borderRadius: BorderRadius.circular(14.0),
+                    borderRadius: BorderRadius.circular(14),
                   ),
                   focusedErrorBorder: OutlineInputBorder(
                     borderSide: BorderSide(
                       color: FlutterFlowTheme.of(context).error,
-                      width: 2.0,
+                      width: 2,
                     ),
-                    borderRadius: BorderRadius.circular(14.0),
+                    borderRadius: BorderRadius.circular(14),
                   ),
                   filled: true,
                   fillColor: const Color(0xFFEEEEEE),
@@ -203,21 +203,21 @@ class _AddLocationWidgetState extends State<AddLocationWidget> {
               },
               text: 'Save',
               options: FFButtonOptions(
-                height: 40.0,
-                padding: const EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 24.0, 0.0),
-                iconPadding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                height: 40,
+                padding: const EdgeInsetsDirectional.fromSTEB(24, 0, 24, 0),
+                iconPadding: const EdgeInsetsDirectional.fromSTEB(0, 0, 0, 0),
                 color: FlutterFlowTheme.of(context).primary,
                 textStyle: FlutterFlowTheme.of(context).titleSmall.override(
                       fontFamily: 'Readex Pro',
                       color: Colors.white,
                       letterSpacing: 0.0,
                     ),
-                elevation: 3.0,
+                elevation: 3,
                 borderSide: const BorderSide(
                   color: Colors.transparent,
-                  width: 1.0,
+                  width: 1,
                 ),
-                borderRadius: BorderRadius.circular(8.0),
+                borderRadius: BorderRadius.circular(8),
               ),
             ),
           ],

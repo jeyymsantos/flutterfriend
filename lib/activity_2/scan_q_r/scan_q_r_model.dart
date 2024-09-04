@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 class ScanQRModel extends FlutterFlowModel<ScanQRWidget> {
   ///  State fields for stateful widgets in this page.
 
-  final unfocusNode = FocusNode();
   var qrCodeResult = '';
 
   @override

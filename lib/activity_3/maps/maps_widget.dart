@@ -43,8 +43,8 @@ class _MapsWidgetState extends State<MapsWidget> {
             backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
             body: Center(
               child: SizedBox(
-                width: 50.0,
-                height: 50.0,
+                width: 50,
+                height: 50,
                 child: CircularProgressIndicator(
                   valueColor: AlwaysStoppedAnimation<Color>(
                     FlutterFlowTheme.of(context).primary,
@@ -67,11 +67,11 @@ class _MapsWidgetState extends State<MapsWidget> {
                 print('FloatingActionButton pressed ...');
               },
               backgroundColor: FlutterFlowTheme.of(context).primary,
-              elevation: 8.0,
+              elevation: 8,
               child: Icon(
                 Icons.add,
                 color: FlutterFlowTheme.of(context).info,
-                size: 24.0,
+                size: 24,
               ),
             ),
             appBar: AppBar(
@@ -79,13 +79,13 @@ class _MapsWidgetState extends State<MapsWidget> {
               automaticallyImplyLeading: false,
               leading: FlutterFlowIconButton(
                 borderColor: Colors.transparent,
-                borderRadius: 30.0,
-                borderWidth: 1.0,
-                buttonSize: 60.0,
+                borderRadius: 30,
+                borderWidth: 1,
+                buttonSize: 60,
                 icon: const Icon(
                   Icons.arrow_back_rounded,
                   color: Colors.white,
-                  size: 30.0,
+                  size: 30,
                 ),
                 onPressed: () async {
                   context.pop();
@@ -96,13 +96,13 @@ class _MapsWidgetState extends State<MapsWidget> {
                 style: FlutterFlowTheme.of(context).headlineMedium.override(
                       fontFamily: 'Outfit',
                       color: Colors.white,
-                      fontSize: 22.0,
+                      fontSize: 22,
                       letterSpacing: 0.0,
                     ),
               ),
               actions: const [],
               centerTitle: false,
-              elevation: 2.0,
+              elevation: 2,
             ),
             body: SafeArea(
               top: true,
@@ -127,7 +127,7 @@ class _MapsWidgetState extends State<MapsWidget> {
                       markerColor: GoogleMarkerColor.blue,
                       mapType: MapType.normal,
                       style: GoogleMapStyle.standard,
-                      initialZoom: 14.0,
+                      initialZoom: 14,
                       allowInteraction: true,
                       allowZoom: true,
                       showZoomControls: true,

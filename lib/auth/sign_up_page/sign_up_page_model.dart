@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 class SignUpPageModel extends FlutterFlowModel<SignUpPageWidget> {
   ///  State fields for stateful widgets in this page.
 
-  final unfocusNode = FocusNode();
   // State field(s) for emailAddress widget.
   FocusNode? emailAddressFocusNode;
   TextEditingController? emailAddressTextController;

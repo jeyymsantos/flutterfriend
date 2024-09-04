@@ -3,10 +3,6 @@ import 'logs_widget.dart' show LogsWidget;
 import 'package:flutter/material.dart';
 
 class LogsModel extends FlutterFlowModel<LogsWidget> {
-  ///  State fields for stateful widgets in this page.
-
-  final unfocusNode = FocusNode();
-
   @override
   void initState(BuildContext context) {}
 

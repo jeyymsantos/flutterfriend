@@ -42,13 +42,13 @@ class _QRPageWidgetState extends State<QRPageWidget> {
           automaticallyImplyLeading: false,
           leading: FlutterFlowIconButton(
             borderColor: Colors.transparent,
-            borderRadius: 30.0,
-            borderWidth: 1.0,
-            buttonSize: 60.0,
+            borderRadius: 30,
+            borderWidth: 1,
+            buttonSize: 60,
             icon: const Icon(
               Icons.arrow_back_rounded,
               color: Colors.white,
-              size: 30.0,
+              size: 30,
             ),
             onPressed: () async {
               context.pop();
@@ -59,23 +59,23 @@ class _QRPageWidgetState extends State<QRPageWidget> {
             style: FlutterFlowTheme.of(context).headlineMedium.override(
                   fontFamily: 'Outfit',
                   color: Colors.white,
-                  fontSize: 22.0,
+                  fontSize: 22,
                   letterSpacing: 0.0,
                 ),
           ),
           actions: const [],
           centerTitle: false,
-          elevation: 2.0,
+          elevation: 2,
         ),
         body: SafeArea(
           top: true,
           child: Padding(
-            padding: const EdgeInsetsDirectional.fromSTEB(20.0, 0.0, 20.0, 0.0),
+            padding: const EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
             child: Column(
               mainAxisSize: MainAxisSize.max,
               children: [
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 0.0),
+                  padding: const EdgeInsetsDirectional.fromSTEB(0, 20, 0, 0),
                   child: InkWell(
                     splashColor: Colors.transparent,
                     focusColor: Colors.transparent,
@@ -86,14 +86,13 @@ class _QRPageWidgetState extends State<QRPageWidget> {
                     },
                     child: Container(
                       width: double.infinity,
-                      height: 80.0,
+                      height: 80,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).secondaryBackground,
-                        borderRadius: BorderRadius.circular(20.0),
+                        borderRadius: BorderRadius.circular(20),
                       ),
                       child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(
-                            20.0, 0.0, 20.0, 0.0),
+                        padding: const EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -109,7 +108,7 @@ class _QRPageWidgetState extends State<QRPageWidget> {
                                       .bodyMedium
                                       .override(
                                         fontFamily: 'Readex Pro',
-                                        fontSize: 18.0,
+                                        fontSize: 18,
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.bold,
                                       ),
@@ -129,7 +128,7 @@ class _QRPageWidgetState extends State<QRPageWidget> {
                             Icon(
                               Icons.queue_outlined,
                               color: FlutterFlowTheme.of(context).secondaryText,
-                              size: 24.0,
+                              size: 24,
                             ),
                           ],
                         ),
@@ -138,7 +137,7 @@ class _QRPageWidgetState extends State<QRPageWidget> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 10.0, 0.0, 0.0),
+                  padding: const EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                   child: InkWell(
                     splashColor: Colors.transparent,
                     focusColor: Colors.transparent,
@@ -149,14 +148,13 @@ class _QRPageWidgetState extends State<QRPageWidget> {
                     },
                     child: Container(
                       width: double.infinity,
-                      height: 80.0,
+                      height: 80,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).secondaryBackground,
-                        borderRadius: BorderRadius.circular(20.0),
+                        borderRadius: BorderRadius.circular(20),
                       ),
                       child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(
-                            20.0, 0.0, 20.0, 0.0),
+                        padding: const EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -172,7 +170,7 @@ class _QRPageWidgetState extends State<QRPageWidget> {
                                       .bodyMedium
                                       .override(
                                         fontFamily: 'Readex Pro',
-                                        fontSize: 18.0,
+                                        fontSize: 18,
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.bold,
                                       ),
@@ -192,7 +190,7 @@ class _QRPageWidgetState extends State<QRPageWidget> {
                             Icon(
                               Icons.qr_code_scanner,
                               color: FlutterFlowTheme.of(context).secondaryText,
-                              size: 24.0,
+                              size: 24,
                             ),
                           ],
                         ),
@@ -201,7 +199,7 @@ class _QRPageWidgetState extends State<QRPageWidget> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 10.0, 0.0, 0.0),
+                  padding: const EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                   child: InkWell(
                     splashColor: Colors.transparent,
                     focusColor: Colors.transparent,
@@ -212,14 +210,13 @@ class _QRPageWidgetState extends State<QRPageWidget> {
                     },
                     child: Container(
                       width: double.infinity,
-                      height: 80.0,
+                      height: 80,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).secondaryBackground,
-                        borderRadius: BorderRadius.circular(20.0),
+                        borderRadius: BorderRadius.circular(20),
                       ),
                       child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(
-                            20.0, 0.0, 20.0, 0.0),
+                        padding: const EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -235,7 +232,7 @@ class _QRPageWidgetState extends State<QRPageWidget> {
                                       .bodyMedium
                                       .override(
                                         fontFamily: 'Readex Pro',
-                                        fontSize: 18.0,
+                                        fontSize: 18,
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.bold,
                                       ),
@@ -255,7 +252,7 @@ class _QRPageWidgetState extends State<QRPageWidget> {
                             Icon(
                               Icons.list_alt,
                               color: FlutterFlowTheme.of(context).secondaryText,
-                              size: 24.0,
+                              size: 24,
                             ),
                           ],
                         ),
