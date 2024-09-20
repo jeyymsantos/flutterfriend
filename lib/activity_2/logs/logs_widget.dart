@@ -43,13 +43,13 @@ class _LogsWidgetState extends State<LogsWidget> {
           automaticallyImplyLeading: false,
           leading: FlutterFlowIconButton(
             borderColor: Colors.transparent,
-            borderRadius: 30,
-            borderWidth: 1,
-            buttonSize: 60,
+            borderRadius: 30.0,
+            borderWidth: 1.0,
+            buttonSize: 60.0,
             icon: const Icon(
               Icons.arrow_back_rounded,
               color: Colors.white,
-              size: 30,
+              size: 30.0,
             ),
             onPressed: () async {
               context.pop();
@@ -60,18 +60,18 @@ class _LogsWidgetState extends State<LogsWidget> {
             style: FlutterFlowTheme.of(context).headlineMedium.override(
                   fontFamily: 'Outfit',
                   color: Colors.white,
-                  fontSize: 22,
+                  fontSize: 22.0,
                   letterSpacing: 0.0,
                 ),
           ),
           actions: const [],
           centerTitle: false,
-          elevation: 2,
+          elevation: 2.0,
         ),
         body: SafeArea(
           top: true,
           child: Padding(
-            padding: const EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
+            padding: const EdgeInsetsDirectional.fromSTEB(20.0, 0.0, 20.0, 0.0),
             child: Column(
               mainAxisSize: MainAxisSize.max,
               children: [
@@ -85,8 +85,8 @@ class _LogsWidgetState extends State<LogsWidget> {
                     if (!snapshot.hasData) {
                       return Center(
                         child: SizedBox(
-                          width: 50,
-                          height: 50,
+                          width: 50.0,
+                          height: 50.0,
                           child: CircularProgressIndicator(
                             valueColor: AlwaysStoppedAnimation<Color>(
                               FlutterFlowTheme.of(context).primary,
@@ -106,7 +106,8 @@ class _LogsWidgetState extends State<LogsWidget> {
                         final listViewLogsRecord =
                             listViewLogsRecordList[listViewIndex];
                         return Padding(
-                          padding: const EdgeInsetsDirectional.fromSTEB(0, 20, 0, 0),
+                          padding: const EdgeInsetsDirectional.fromSTEB(
+                              0.0, 20.0, 0.0, 0.0),
                           child: InkWell(
                             splashColor: Colors.transparent,
                             focusColor: Colors.transparent,
@@ -133,15 +134,15 @@ class _LogsWidgetState extends State<LogsWidget> {
                             },
                             child: Container(
                               width: double.infinity,
-                              height: 50,
+                              height: 50.0,
                               decoration: BoxDecoration(
                                 color: FlutterFlowTheme.of(context)
                                     .secondaryBackground,
-                                borderRadius: BorderRadius.circular(20),
+                                borderRadius: BorderRadius.circular(20.0),
                               ),
                               child: Padding(
                                 padding: const EdgeInsetsDirectional.fromSTEB(
-                                    20, 0, 20, 0),
+                                    20.0, 0.0, 20.0, 0.0),
                                 child: Row(
                                   mainAxisSize: MainAxisSize.max,
                                   mainAxisAlignment:
@@ -164,7 +165,7 @@ class _LogsWidgetState extends State<LogsWidget> {
                                               .bodyMedium
                                               .override(
                                                 fontFamily: 'Readex Pro',
-                                                fontSize: 14,
+                                                fontSize: 14.0,
                                                 letterSpacing: 0.0,
                                                 fontWeight: FontWeight.bold,
                                               ),
@@ -221,7 +222,7 @@ class _LogsWidgetState extends State<LogsWidget> {
                                       Icons.remove_red_eye_outlined,
                                       color: FlutterFlowTheme.of(context)
                                           .secondaryText,
-                                      size: 24,
+                                      size: 24.0,
                                     ),
                                   ],
                                 ),

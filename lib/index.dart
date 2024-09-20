@@ -12,3 +12,5 @@ export '/activity_2/scan_q_r/scan_q_r_widget.dart' show ScanQRWidget;
 export '/activity_2/logs/logs_widget.dart' show LogsWidget;
 export '/activity_2/view_q_r/view_q_r_widget.dart' show ViewQRWidget;
 export '/activity_3/maps/maps_widget.dart' show MapsWidget;
+export '/activity_3/activity_polylines/activity_polylines_widget.dart'
+    show ActivityPolylinesWidget;

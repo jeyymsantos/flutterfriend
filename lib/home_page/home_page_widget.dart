@@ -44,23 +44,23 @@ class _HomePageWidgetState extends State<HomePageWidget> {
             style: FlutterFlowTheme.of(context).headlineMedium.override(
                   fontFamily: 'Outfit',
                   color: Colors.white,
-                  fontSize: 22,
+                  fontSize: 22.0,
                   letterSpacing: 0.0,
                 ),
           ),
           actions: const [],
           centerTitle: false,
-          elevation: 2,
+          elevation: 2.0,
         ),
         body: SafeArea(
           top: true,
           child: Padding(
-            padding: const EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
+            padding: const EdgeInsetsDirectional.fromSTEB(20.0, 0.0, 20.0, 0.0),
             child: Column(
               mainAxisSize: MainAxisSize.max,
               children: [
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0, 20, 0, 0),
+                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 0.0),
                   child: InkWell(
                     splashColor: Colors.transparent,
                     focusColor: Colors.transparent,
@@ -71,13 +71,14 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     },
                     child: Container(
                       width: double.infinity,
-                      height: 80,
+                      height: 80.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).secondaryBackground,
-                        borderRadius: BorderRadius.circular(20),
+                        borderRadius: BorderRadius.circular(20.0),
                       ),
                       child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
+                        padding: const EdgeInsetsDirectional.fromSTEB(
+                            20.0, 0.0, 20.0, 0.0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -93,7 +94,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                       .bodyMedium
                                       .override(
                                         fontFamily: 'Readex Pro',
-                                        fontSize: 18,
+                                        fontSize: 18.0,
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.bold,
                                       ),
@@ -114,7 +115,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                       .bodyMedium
                                       .override(
                                         fontFamily: 'Readex Pro',
-                                        fontSize: 12,
+                                        fontSize: 12.0,
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.w300,
                                       ),
@@ -124,7 +125,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             Icon(
                               Icons.lightbulb_outline_sharp,
                               color: FlutterFlowTheme.of(context).secondaryText,
-                              size: 24,
+                              size: 24.0,
                             ),
                           ],
                         ),
@@ -133,7 +134,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
+                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 10.0, 0.0, 0.0),
                   child: InkWell(
                     splashColor: Colors.transparent,
                     focusColor: Colors.transparent,
@@ -144,13 +145,14 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     },
                     child: Container(
                       width: double.infinity,
-                      height: 80,
+                      height: 80.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).secondaryBackground,
-                        borderRadius: BorderRadius.circular(20),
+                        borderRadius: BorderRadius.circular(20.0),
                       ),
                       child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
+                        padding: const EdgeInsetsDirectional.fromSTEB(
+                            20.0, 0.0, 20.0, 0.0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -166,7 +168,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                       .bodyMedium
                                       .override(
                                         fontFamily: 'Readex Pro',
-                                        fontSize: 18,
+                                        fontSize: 18.0,
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.bold,
                                       ),
@@ -187,7 +189,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                       .bodyMedium
                                       .override(
                                         fontFamily: 'Readex Pro',
-                                        fontSize: 12,
+                                        fontSize: 12.0,
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.w300,
                                       ),
@@ -197,7 +199,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             Icon(
                               Icons.qr_code,
                               color: FlutterFlowTheme.of(context).secondaryText,
-                              size: 24,
+                              size: 24.0,
                             ),
                           ],
                         ),
@@ -206,7 +208,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
+                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 10.0, 0.0, 0.0),
                   child: InkWell(
                     splashColor: Colors.transparent,
                     focusColor: Colors.transparent,
@@ -217,13 +219,14 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     },
                     child: Container(
                       width: double.infinity,
-                      height: 80,
+                      height: 80.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).secondaryBackground,
-                        borderRadius: BorderRadius.circular(20),
+                        borderRadius: BorderRadius.circular(20.0),
                       ),
                       child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
+                        padding: const EdgeInsetsDirectional.fromSTEB(
+                            20.0, 0.0, 20.0, 0.0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -239,7 +242,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                       .bodyMedium
                                       .override(
                                         fontFamily: 'Readex Pro',
-                                        fontSize: 18,
+                                        fontSize: 18.0,
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.bold,
                                       ),
@@ -260,7 +263,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                       .bodyMedium
                                       .override(
                                         fontFamily: 'Readex Pro',
-                                        fontSize: 12,
+                                        fontSize: 12.0,
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.w300,
                                       ),
@@ -268,9 +271,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                               ],
                             ),
                             Icon(
-                              Icons.qr_code,
+                              Icons.location_pin,
                               color: FlutterFlowTheme.of(context).secondaryText,
-                              size: 24,
+                              size: 24.0,
                             ),
                           ],
                         ),

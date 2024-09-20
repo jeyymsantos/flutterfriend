@@ -48,13 +48,13 @@ class _GenerateQRWidgetState extends State<GenerateQRWidget> {
           automaticallyImplyLeading: false,
           leading: FlutterFlowIconButton(
             borderColor: Colors.transparent,
-            borderRadius: 30,
-            borderWidth: 1,
-            buttonSize: 60,
+            borderRadius: 30.0,
+            borderWidth: 1.0,
+            buttonSize: 60.0,
             icon: const Icon(
               Icons.arrow_back_rounded,
               color: Colors.white,
-              size: 30,
+              size: 30.0,
             ),
             onPressed: () async {
               context.pop();
@@ -65,13 +65,13 @@ class _GenerateQRWidgetState extends State<GenerateQRWidget> {
             style: FlutterFlowTheme.of(context).headlineMedium.override(
                   fontFamily: 'Outfit',
                   color: Colors.white,
-                  fontSize: 22,
+                  fontSize: 22.0,
                   letterSpacing: 0.0,
                 ),
           ),
           actions: const [],
           centerTitle: false,
-          elevation: 2,
+          elevation: 2.0,
         ),
         body: SafeArea(
           top: true,
@@ -79,13 +79,14 @@ class _GenerateQRWidgetState extends State<GenerateQRWidget> {
             key: _model.formKey,
             autovalidateMode: AutovalidateMode.disabled,
             child: Padding(
-              padding: const EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
+              padding: const EdgeInsetsDirectional.fromSTEB(20.0, 0.0, 20.0, 0.0),
               child: Column(
                 mainAxisSize: MainAxisSize.max,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Padding(
-                    padding: const EdgeInsetsDirectional.fromSTEB(0, 24, 0, 0),
+                    padding:
+                        const EdgeInsetsDirectional.fromSTEB(0.0, 24.0, 0.0, 0.0),
                     child: TextFormField(
                       controller: _model.textController,
                       focusNode: _model.textFieldFocusNode,
@@ -97,30 +98,30 @@ class _GenerateQRWidgetState extends State<GenerateQRWidget> {
                         enabledBorder: OutlineInputBorder(
                           borderSide: BorderSide(
                             color: FlutterFlowTheme.of(context).primary,
-                            width: 2,
+                            width: 2.0,
                           ),
-                          borderRadius: BorderRadius.circular(10),
+                          borderRadius: BorderRadius.circular(10.0),
                         ),
                         focusedBorder: OutlineInputBorder(
                           borderSide: const BorderSide(
                             color: Color(0x00000000),
-                            width: 2,
+                            width: 2.0,
                           ),
-                          borderRadius: BorderRadius.circular(10),
+                          borderRadius: BorderRadius.circular(10.0),
                         ),
                         errorBorder: OutlineInputBorder(
                           borderSide: const BorderSide(
                             color: Color(0x00000000),
-                            width: 2,
+                            width: 2.0,
                           ),
-                          borderRadius: BorderRadius.circular(10),
+                          borderRadius: BorderRadius.circular(10.0),
                         ),
                         focusedErrorBorder: OutlineInputBorder(
                           borderSide: const BorderSide(
                             color: Color(0x00000000),
-                            width: 2,
+                            width: 2.0,
                           ),
-                          borderRadius: BorderRadius.circular(10),
+                          borderRadius: BorderRadius.circular(10.0),
                         ),
                         filled: true,
                       ),
@@ -133,7 +134,8 @@ class _GenerateQRWidgetState extends State<GenerateQRWidget> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsetsDirectional.fromSTEB(0, 24, 0, 0),
+                    padding:
+                        const EdgeInsetsDirectional.fromSTEB(0.0, 24.0, 0.0, 0.0),
                     child: FFButtonWidget(
                       onPressed: () async {
                         if (_model.formKey.currentState == null ||
@@ -158,35 +160,38 @@ class _GenerateQRWidgetState extends State<GenerateQRWidget> {
                       text: 'Generate QR Code',
                       options: FFButtonOptions(
                         width: double.infinity,
-                        height: 40,
-                        padding: const EdgeInsetsDirectional.fromSTEB(0, 0, 0, 0),
-                        iconPadding: const EdgeInsetsDirectional.fromSTEB(0, 0, 0, 0),
+                        height: 40.0,
+                        padding:
+                            const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                        iconPadding:
+                            const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                         color: FlutterFlowTheme.of(context).primary,
                         textStyle:
                             FlutterFlowTheme.of(context).titleMedium.override(
                                   fontFamily: 'Readex Pro',
                                   color: Colors.white,
-                                  fontSize: 14,
+                                  fontSize: 14.0,
                                   letterSpacing: 0.0,
                                 ),
-                        elevation: 2,
-                        borderRadius: BorderRadius.circular(10),
+                        elevation: 2.0,
+                        borderRadius: BorderRadius.circular(10.0),
                       ),
                     ),
                   ),
                   if (_model.qrCode != null && _model.qrCode != '')
                     Padding(
-                      padding: const EdgeInsetsDirectional.fromSTEB(0, 20, 0, 0),
+                      padding:
+                          const EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 0.0),
                       child: BarcodeWidget(
                         data: _model.qrCode!,
                         barcode: Barcode.qrCode(),
-                        width: 200,
-                        height: 200,
+                        width: 200.0,
+                        height: 200.0,
                         color: FlutterFlowTheme.of(context).primaryText,
                         backgroundColor: Colors.transparent,
                         errorBuilder: (context, error) => const SizedBox(
-                          width: 200,
-                          height: 200,
+                          width: 200.0,
+                          height: 200.0,
                         ),
                         drawText: false,
                       ),

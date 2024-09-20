@@ -147,6 +147,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'maps',
           path: '/maps',
           builder: (context, params) => const MapsWidget(),
+        ),
+        FFRoute(
+          name: 'activity_polylines',
+          path: '/activityPolylines',
+          builder: (context, params) => const ActivityPolylinesWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
@@ -333,8 +338,8 @@ class FFRoute {
           final child = appStateNotifier.loading
               ? Center(
                   child: SizedBox(
-                    width: 50,
-                    height: 50,
+                    width: 50.0,
+                    height: 50.0,
                     child: CircularProgressIndicator(
                       valueColor: AlwaysStoppedAnimation<Color>(
                         FlutterFlowTheme.of(context).primary,

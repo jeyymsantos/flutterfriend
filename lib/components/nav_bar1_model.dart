@@ -1,8 +1,8 @@
 import '/flutter_flow/flutter_flow_util.dart';
-import 'maps_widget.dart' show MapsWidget;
+import 'nav_bar1_widget.dart' show NavBar1Widget;
 import 'package:flutter/material.dart';
 
-class MapsModel extends FlutterFlowModel<MapsWidget> {
+class NavBar1Model extends FlutterFlowModel<NavBar1Widget> {
   @override
   void initState(BuildContext context) {}
 
